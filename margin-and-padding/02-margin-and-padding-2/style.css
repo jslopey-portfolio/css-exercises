@@ -5,8 +5,10 @@ body {
 
 .card {
   width: 400px;
+  height: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 16px;
 }
 
 .title {
@@ -19,9 +21,21 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
+
+
+.card .floating {
+  margin: 8px;
+  padding: 12px;
+}
+
+
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  margin: 0 auto;
+  padding: 5px 18px;
 }
